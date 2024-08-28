@@ -1,0 +1,21 @@
+@media screen and (min-width: 500px) {
+    header { 
+        display: flex;
+        padding: 8px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: rgb(172, 21, 21);
+        color: white;
+        align-content: stretch;
+    }
+    div {
+        flex: auto;
+        border: 1px solid white;
+        padding: 5px;
+        text-align: center;
+    }
+
+}
+
+
+
