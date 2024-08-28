@@ -1,21 +1,29 @@
-@media screen and (min-width: 500px) {
-    header { 
-        display: flex;
-        padding: 8px;
-        flex-wrap: wrap;
-        flex-direction: column;
-        background-color: rgb(172, 21, 21);
-        color: white;
-        align-content: stretch;
-    }
-    div {
-        flex: auto;
-        border: 1px solid white;
-        padding: 5px;
-        text-align: center;
-    }
+ul, li, body {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
 
+a {
+    text-decoration: none;
 }
 
 
+header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(172, 21, 21);
+    color: white;
+}
 
+.menu {
+    display: flex;
+}
+
+.menu li {
+    border: 1px solid white;
+    padding: 5px 8px;
+}
