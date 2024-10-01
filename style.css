@@ -10,13 +10,17 @@
 }
 
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #h1 {
   font-family: montserrat;
   margin: 80px 40px;
   text-align: center;
   font-size: 37px;
   font-style: bold;
-
 
 }
 
@@ -232,8 +236,8 @@ footer i:hover {
   display: flex;
 }
 
-/* específicos da segunda página */
+/* específico de .contato */
 
-.espaco-div {
-  margin-bottom: 50px;
+html {
+  scrollbar-width: none;
 }
