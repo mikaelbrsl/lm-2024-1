@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Imóveis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>
+            <a style="color:red;" href="index.html">Voltar à tela incial</a>
+        </p>
+        <h1>Cadastro de Imóvel</h1>
+        <form id="imovelForm">
+            <label for="localizacao">Localização:</label>
+            <input type="text" id="localizacao" name="localizacao" required>
+
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" name="preco" required>
+
+            <label for="qnt_quartos">Quantidade de quartos:</label>
+            <input type="number" id="qnt_quartos" name="qnt_quartos" required>
+
+            <label for="qnt_banheiros">Quantidade de banheiros:</label>
+            <input type="number" id="qnt_banheiros" name="qnt_banheiros" required>
+
+            <label for="area_lazer">Área de lazer:</label>
+            <input type="number" id="area_lazer" name="area_lazer" required>
+
+            <label for="piscina">Piscina:</label>
+            <input type="number" id="piscina" name="piscina" required>
+
+            <label for="imagem">URL da Imagem:</label>
+            <input type="text" id="imagem" name="imagem" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+    <script src="script01.js"></script>
+    
+</body>
+</html>
